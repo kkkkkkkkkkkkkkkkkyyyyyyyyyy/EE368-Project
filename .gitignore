@@ -1,0 +1,32 @@
+# Catkin build outputs
+build/
+devel/
+install/
+logs/
+.catkin_tools/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# ROS runtime files
+*.bag
+*.bag.active
+.ros/
+
+# Node dependencies
+node_modules/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.git.local-backup/
+
+# Temporary outputs
+*.tmp
+*.log
